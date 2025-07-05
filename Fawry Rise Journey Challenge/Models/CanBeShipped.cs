@@ -9,5 +9,4 @@ public class CanBeShipped(string name, int price, int quantity, DateTime expired
 
     public string GetName() => Name;
     public int GetWeight() => Weight;
-    
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fawry Rise Journey Challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed6052f8e6dd7d2690dd24e897f87d2622b45a6d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c53099804e62eabc1371c835d618212af8db3930")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fawry Rise Journey Challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fawry Rise Journey Challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

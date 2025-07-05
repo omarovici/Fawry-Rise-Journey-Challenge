@@ -4,18 +4,25 @@ namespace Fawry_Rise_Journey_Challenge.Models;
 
 public class Shipping
 {
-    public static void ShippingItems(List<IShipping> items)
+    public static void ShippingItems(List<CartItems> cartItems)
     {
         Console.WriteLine("** Shipment notice **");
         int totalWeight = 0;
-        foreach (var item in items.GroupBy(prod=>prod.GetName()))
+        foreach (var group in cartItems
+                     .Where(item => item.Products is IShipping)
+                     .GroupBy(item => ((IShipping)item.Products).GetName()))
         {
-            int count = item.Count();
-            int weight = item.First().GetWeight();
-            int groupWeight = weight * count;
+            int quantity = group.Sum(item => item.Quantity);
+            var shippingProduct = (IShipping)group.First().Products;
+            int weight = shippingProduct.GetWeight();
+            int groupWeight = weight * quantity;
             totalWeight += groupWeight;
-            Console.WriteLine($"{count}x {item.Key} {groupWeight}g");
+            Console.WriteLine($"{quantity}x {group.Key} {groupWeight}g");
         }
-        Console.WriteLine($"Total package weight {totalWeight}g\n");
+
+        string totalWeightStr = totalWeight >= 1000
+            ? $"{totalWeight / 1000.0}kg"
+            : $"{totalWeight}g";
+        Console.WriteLine($"Total package weight {totalWeightStr}\n");
     }
 }
