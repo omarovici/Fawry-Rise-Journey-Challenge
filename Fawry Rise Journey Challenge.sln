@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fawry Rise Journey Challenge", "Fawry Rise Journey Challenge\Fawry Rise Journey Challenge.csproj", "{DCE09A0E-E732-47B0-BA7A-DD3AEE43E087}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE09A0E-E732-47B0-BA7A-DD3AEE43E087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE09A0E-E732-47B0-BA7A-DD3AEE43E087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE09A0E-E732-47B0-BA7A-DD3AEE43E087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE09A0E-E732-47B0-BA7A-DD3AEE43E087}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
