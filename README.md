@@ -24,7 +24,7 @@ This is a C# console application simulating a shopping cart system with product 
 
 1. **Clone the repository**  
    ```
-   git clone <your-repo-url>
+   git clone "https://github.com/omarovici/Fawry-Rise-Journey-Challenge.git"
    cd Fawry-Rise-Journey-Challenge/Fawry\ Rise\ Journey\ Challenge
    ```
 
