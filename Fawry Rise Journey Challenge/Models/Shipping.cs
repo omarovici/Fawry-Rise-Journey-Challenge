@@ -4,7 +4,7 @@ namespace Fawry_Rise_Journey_Challenge.Models;
 
 public class Shipping
 {
-    public void ShippingItems(List<IShipping> items)
+    public static void ShippingItems(List<IShipping> items)
     {
         Console.WriteLine("** Shipment notice **");
         int totalWeight = 0;

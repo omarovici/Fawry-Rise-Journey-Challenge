@@ -2,7 +2,7 @@ namespace Fawry_Rise_Journey_Challenge.Models;
 
 public class Cart
 {
-    private List<CartItems>  _items = new List<CartItems>();
+    public List<CartItems>  _items = new List<CartItems>();
 
     public void Add(Products products, int quantity)
     {
